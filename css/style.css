@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.top{
+    padding: 0  20px;
+    margin-left: 12px;
+}
+
+.custom-loader {
+    width: 80px;
+    height: 80px;
+    color:#1d1d1f;
+}
+
+.imgtopmadre{
+    height: 104px;
+}
+
+
+.logo{ 
+    background-color:#00d1b2;
+    margin-top: 22px;
+}
+
+
+
+nav{
+    width: 1000px;
+    margin-left: 15px;
+    color: #211b1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nametop{
+    font-size: 28px;
+}
+
+.input{
+    cursor: text;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.btntop{
+    background-color: 
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.carrito{
+    width: 34px;
+    cursor: grab;
+}
+
+.list{
+    width: 864px;
+    font-size: 16px;
+    margin-left: 81px;
+    font-weight: 100;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+    cursor: pointer; 
+}
+
+.line{
+    border: 1px solid;
+    color: black;
+    margin-top: 31px;
+    width: 909px;
+    margin-left: 67px;
+}
+   
+.prrfo{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 144px;
+    font-size: 27px;
+    font-weight: 100;
+    padding: 28px;
+}
+
+.text{
+    height: 56px;
+    margin-left: 102px;
+    padding: 84px;
+    background-color: #00d1b2;
+    width: 128px;
+    color: white;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    align-items: center;
+}
+
+.suculenta1{
+    width: 226px;
+    padding: 0px;
+    border-radius: 1px;
+}
+
+.contenedorDerecho{
+    display: flex;
+    margin-left: 14px;
+}
+
+.sedum{
+    position: relative;
+    top: 23px;
+}
+
+.sedumfoto{
+    height: 158px;
+    width: 347px;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.divfrase{
+    background-color: #00d1b2;
+    color: white;
+    margin-left: 22px;
+    width: 351px;
+}
+
+.frase{
+    display: flex;
+    width: 193px;
+    height: 122px;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 95px;
+}
+
+.floresmadre{
+    position: absolute;
+    top: 630px;
+    left: 100px;
+    padding-left: 14px;
+    background-color:#00d1b2;
+}
+
+.flores{
+    width: 865px;
+    margin:0 auto;
+    display: flex;
+    gap: 5%;
+    margin-top: 20px;
+    margin: 15px;
+}
+
+.flores img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px 0;
+    top: 600px;
+    border: 2px solid mediumseagreen;
+}
+
+.flores h4{
+    text-align: center;
+}
+
+footer {
+    position: fixed; /*Fijaba el elemento en un espacio ignorando el scroll*/
+    bottom: 0;
+    width: 100%;
+    left: 119px;
+}
+
+.cookie {
+    width: 865px;
+    background-color:white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.imgcookie{
+    width: 48px;
+}
+
+h4 ,button{
+    font-size: 20px;
+}
+
+.btncookie{
+    background-color: #00d1b2;
+}
